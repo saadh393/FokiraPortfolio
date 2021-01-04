@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+p {
+  color: dimgray;
+}
+
+section {
+  padding-bottom: 0px;
+  height: 500px;
+}
+
+.btn {
+  text-decoration: none;
+  background-image: linear-gradient(45deg, orange, salmon);
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px;
+  font-weight: 700;
+}
+.highlighter {
+  color: Orange;
+}
+
+.half-width {
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+
+.half-width img {
+  width: 100%;
+}
+
+.welcome-area {
+  background-image: url(./image/top-banner.png);
+  background-repeat: no-repeat;
+}
+.dream-area {
+  background-image: url(./image/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.experience-area {
+  box-sizing: border-box;
+  background-image: url(./image/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.single-experience {
+  box-shadow: 10px 10px 40px gray;
+  height: 80%;
+  text-align: justify;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
+#proDev {
+  border-left: 5px solid;
+  border-image: linear-gradient(45deg, Orange, salmon);
+  border-image-slice: 1;
+}
+
+#babyLearner {
+  border-left: 5px solid;
+  border-image: linear-gradient(45deg, blue, cyan);
+  border-image-slice: 20;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
